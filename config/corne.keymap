@@ -65,9 +65,9 @@
 // |      |  Z   |  X/⌘ |  M/⇧ |  C   |  V  |   |  K  |  L   |  ,   |  ./⌘ |  /   |        |
 //           | SYM ESC | NUM TAB | NAV0/SPC |   | RET | BSPC | CTRL/DEL |
                         bindings = <
-   &none   &kp Q       &kp D        &kp R       &kp W        &kp B   &kp J  &kp F        &kp U       &kp P        &kp SQT       &kp C_VOL_UP
-   &none   &hm LALT A  &hm LCTRL S  &hm LCMD H  &hm LSHFT T  &kp G   &kp Y  &hm RSHFT N  &hm RCMD E  &hm RCTRL O  &hm RALT I    &kp C_VOL_DN
-   &none   &kp Z       &hm LCMD X   &hm LSHFT M &kp C        &kp V   &kp K  &kp L        &kp COMMA   &hm LCMD DOT &kp FSLH      &none
+   &none   &kp APOS    &kp COMMA    &kp DOT     &kp Y        &kp RET    &kp F  &kp G        &kp C       &kp P        &kp K         &kp C_VOL_UP
+   &none   &hm LSHFT A &hm LALT O   &hm LCTRL E &hm LMETA I  &kp J      &kp D  &hm RMETA H  &hm RCTRL T &hm RALT N   &hm RSHIFT S  &kp C_VOL_DN
+   &none   &kp SCLN    &kp X        &kp Q       &kp U        &kp TAB    &kp B  &kp M        &kp W       &kp V        &kp Z         &none
                                    &lt SYM ESC  &lt NUM TAB &trans   &kp RET &kp BSPC &trans
                         >;
                 };
